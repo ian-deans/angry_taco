@@ -11,3 +11,10 @@ A user can:
 - view the profile of other users
 - befriend other users
 - message other users and friends
+
+
+
+MongoDB
+Express
+React
+TypeScript
