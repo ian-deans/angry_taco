@@ -1,0 +1,37 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "node": true,
+        "es6": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": false
+        },
+        "sourceType" : "module"
+    },
+    "rules": {
+        "array-callback-return": "warn",
+        "array-bracket-spacing": "never",
+        "arrow-parens": "as-needed",
+        "arrow-spacing": "error",
+        "block-spacing": ["error", "never"],
+        "brace-style": ["error", "stroustrup"],
+        "curly": "error",
+        "dot-location": "property",
+        "eqeqeq": "always",
+        "no-console": [
+            "warn", {"allow": ["warn", "error"]}
+        ],
+        "no-else-return": ["error", {"allowElseIf": true}],
+        "no-empty": "error",
+        "no-sync": "error",
+        "no-trailing-spaces": "error",
+        "no-unreachable": "warn",
+        "object-curly-spacing": "never",
+        "semi": "error"
+    }
+}
