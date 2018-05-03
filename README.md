@@ -17,4 +17,14 @@ A user can:
 MongoDB
 Express
 React
+ReactNative
 TypeScript
+
+
+## Project Setup
+
+1. Fork the repository.
+2. Clone your fork to your system.
+3. Run ```npm install ``` from the project root directory.
+
+
