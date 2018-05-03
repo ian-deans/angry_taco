@@ -10,13 +10,13 @@ app.use(logger('dev'))
 app.use(bodyParser.json())
 app.use(express.static(path.join(__dirname, '/public')))
 
-/************* Test Route *************/
 
 app.get('/', (request, response) => {
-  response.send('TESTING')
+  response.json({
+    status: 'Online',
+    message: 'API server is up and running.'
+  })
 })
-
-/**************************************/
 
 app.use((request, response, next) => {
   next(createError(404))
