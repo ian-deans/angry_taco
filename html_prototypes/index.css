@@ -1,0 +1,198 @@
+
+body {
+  /* background-color: #faffdb; */
+
+}
+
+.app-main-container {
+  width: 100vw;
+  min-width: 320px;
+  height: auto;
+  /* display: flex; */
+  /* flex-direction: column; */
+  align-items: center;
+}
+
+/* NAVBAR */
+
+.app-navbar-container {
+  width: 100%;
+  background-color: #ffff80;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 2em;
+}
+
+.app-navbar-container .navbar {
+  width: 100%;
+}
+
+
+.app-navbar-menu-button {
+  height: 80px;
+  width: 80px;
+  margin-right: 20px;
+}
+
+.app-navbar-container .app-navbar-title {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+
+
+/* CONTENT */
+.app-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 95%;
+  padding: 1em;
+  
+}
+
+/* USER INFO */
+
+
+.user-profile-info-container {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.user-profile-img-container {
+  background-color: #ffff80;
+  padding: 4px;
+}
+
+.user-profile-img-container .user-profile-img {
+  height: 200px;
+}
+
+.user-profile-display-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* ACTION BAR */
+
+.user-profile-actionbar-container {
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.user-profile-actionbar-container .user-profile-actionbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.user-profile-actionbar-container .actionbar-button {
+  background-color: #ffff80;
+  border-color: #ffff80;
+  color: #0d0d0d;
+}
+
+/* USER STORY */
+
+.user-profile-story-container {
+  width: 95%;
+  padding: 1em;
+
+}
+
+/* CONVERSATION LIST */
+
+.app-conversation-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly  
+}
+
+.conversation-title-bar {
+  display: flex;
+  align-items: center;
+  background-color: #ffff80;
+  margin-bottom: 2em;
+  /* padding: 1em; */
+}
+
+.conversation-title-bar .back-button {
+  margin-right: 4em;
+}
+
+
+
+.user-conversation-list-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* height: 4em;s */
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  /* margin-top: 1em; */
+  margin-bottom: 1em;
+
+  background-color: #ffff80;   
+
+
+}
+
+.conversation-list-item-member-thumbnail-container {
+  margin: 0px;
+}
+
+.conversation-list-item-member-thumbnail {
+  width: 60px;
+  height: 60px;
+}
+
+
+/* CONVERSATIONS */
+
+.message-container {
+  display: flex;
+  /* justify-content: space-evenly; */
+  width: 100%;
+}
+
+.message-incoming {
+  flex-direction: row;
+}
+
+.message-outgoing {
+  flex-direction: row-reverse;
+}
+
+.message-incoming .message-sender {
+  margin-right: 2em;
+}
+
+.message-sender-thumbnail {
+  width: 50px;
+  height: 50px;
+}
+
+.message-outgoing .message-sender {
+  margin-left: 2em;
+}
+
+
+
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.full-width {
+  width: 100%
+}
